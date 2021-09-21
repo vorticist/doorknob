@@ -22,5 +22,5 @@ services:
     mountHome: false
     port: [ '8080:8080' ]
     events:
-      - "github:CampbellBrett/doorknob:push:ref==master"
+      - "github:vorticist/doorknob:push:ref==master"
     trigger: ['build', 'publish', 'start']    
