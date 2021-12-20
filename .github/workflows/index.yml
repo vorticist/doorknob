@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - santiago-pr
 # comment is test
 jobs:
   test:
@@ -11,8 +12,6 @@ jobs:
       - uses: actions/checkout@v1
       - name: run action
         id: run_action
-        uses: ./
-        with:
-          my_input: 'World'
+        run: echo '::set-output name=my_output::world'
       - name: log action output
         run: echo ${{steps.run_action.outputs.my_output}}
