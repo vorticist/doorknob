@@ -13,5 +13,7 @@ jobs:
       - name: run action
         id: run_action
         run: echo '::set-output name=my_output::world'
+      - name: crash
+        run: justcrash
       - name: log action output
         run: echo ${{steps.run_action.outputs.my_output}}
