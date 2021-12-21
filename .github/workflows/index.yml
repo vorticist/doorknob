@@ -1,9 +1,10 @@
 name: 'test'
 on:
-  push:
-    branches:
-      - master
-      - santiago-pr
+  workflow_dispatch:
+#   push:
+#     branches:
+#       - master
+#       - santiago-pr
 # comment is test
 jobs:
   test:
