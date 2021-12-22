@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
+      - uses: actions/checkout@v1
       - name: deploy
       - name: log action output
         run: echo ${{steps.run_action.outputs.my_output}}
