@@ -17,6 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: deploy
+        run: echo ${{steps.run_action.outputs.my_output}}
       - name: log action output
         run: echo ${{steps.run_action.outputs.my_output}}
 
