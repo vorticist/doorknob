@@ -1,5 +1,5 @@
 const { sdk } = require('@cto.ai/sdk')
-const http = require('http')
+const http = require('http');
 
 async function main() {
   const requestListener = function (req, res) {
