@@ -16,6 +16,10 @@ jobs:
     environment: production
     steps:
       - uses: actions/checkout@v1
+      - name: testDispatcher
+        run: |
+          echo $REF
+          git fetch --all && git checkout $REF
       - name: deploy
         run: echo ${{steps.run_action.outputs.my_output}}
       - name: log action output
