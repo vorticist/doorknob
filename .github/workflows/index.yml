@@ -23,5 +23,5 @@ jobs:
       - name: deploy
         run: echo ${{steps.run_action.outputs.my_output}}
       - name: log action output
-        run: echo ${{steps.run_action.outputs.my_output}}
+        run: echo testing
 
