@@ -1,4 +1,4 @@
-asa # doorknob
+assa # doorknob
 
 When two turns to the right
 
