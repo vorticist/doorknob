@@ -1,0 +1,31 @@
+name: Deployment
+
+concurrency: 
+  group: production
+  cancel-in-progress: true
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v1
+      - name: testDispatcher
+        run: |
+          echo $REF
+          git fetch --all && git checkout $REF
+      - name: deploy
+        run: echo ${{steps.run_action.outputs.my_output}}
+      - name: log action output
+<<<<<<< HEAD
+        run: echo test
+=======
+        run: echo testing
+>>>>>>> 92173c00b00f117be4037cc0f577785cf8b03e9f
+
