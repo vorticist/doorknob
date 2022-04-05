@@ -1,7 +1,7 @@
 adfkjhdsassa # doorknob
 hkjjlk,jhfgkjhkjhkjdjh
 When two turns to the right
-lkklfdfifiiddjjfhj
+lkklfdfifiiiddjjfhj
 ## Usage
 
 1. jgghjhgake change to this repo
