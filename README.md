@@ -1,5 +1,5 @@
 adfkjhdsassa # doorknob
-hkjjlk,jhfgkjhkjhkjdjh .......................
+hkjjlk,jhfgkjhkjhkjdjh x...
 When two turns to the right
 lkklfdfifiidsdiiiiiiiisiiddjjfhj
 ## Usage
